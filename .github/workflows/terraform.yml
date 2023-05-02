@@ -64,4 +64,4 @@ jobs:
       #if: github.ref == 'refs/heads/main' && github.event_name == 'push'
       run: |
         cd production
-        terraform apply -auto-approve 
+        terraform destroy -auto-approve 
