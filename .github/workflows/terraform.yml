@@ -41,7 +41,7 @@ jobs:
         cd production
         terraform init
 
-    # Checks that all Terraform configuration files adhere to a canonical format
+    # Checks that all Terraform configuration files adhere to a canonical format1
     - name: Terraform Format
       run: |
         cd production
